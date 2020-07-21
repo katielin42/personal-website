@@ -60,3 +60,8 @@ body .bg-dark{
   color: white !important;
   font-family: Verdana;
 }
+
+:root{
+  --mainDark: #152f4f;
+  --mainWhite: #ffffff;
+}
