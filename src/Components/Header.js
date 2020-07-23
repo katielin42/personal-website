@@ -11,13 +11,16 @@ function Header() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Link href="#home">Home</Nav.Link>
-          <NavDropdown title="Experiences" id="basic-nav-dropdown">
+          <Nav.Link href="#about-tech">All About Tech</Nav.Link>
+          <Nav.Link href="#extracurriculars">Extracurriculars</Nav.Link>
+          <Nav.Link href="#hobbies">Hobbies</Nav.Link>
+          {/* <NavDropdown title="Experiences" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Technical Experiences</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Extracurricular Involvement</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Hobbies</NavDropdown.Item>
-          </NavDropdown>
-          <Nav.Link href="#vision">Vision</Nav.Link>
+            <NavDropdown.Item href="#action/3.4">Hobbies</NavDropdown.Item> */}
+          {/* </NavDropdown>
+          <Nav.Link href="#vision">Vision</Nav.Link> */}
           <Nav.Link href="#resume">Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>

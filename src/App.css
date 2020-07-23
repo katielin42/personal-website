@@ -65,3 +65,7 @@ body .bg-dark{
   --mainDark: #152f4f;
   --mainWhite: #ffffff;
 }
+
+ul {
+  list-style-type: none;
+}
