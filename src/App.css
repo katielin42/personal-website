@@ -46,11 +46,19 @@ body .bg-dark{
   font-family: Verdana;
   }
 
+  .nav-link:hover{
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+
 .navbar-brand{
   color: white !important;
   font-family: Verdana;
   font-weight: bold;
   font-size: 150% !important;
+}
+
+.navbar-brand:hover{
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .dropdown-menu{
@@ -75,4 +83,8 @@ a.social {
   transition: transform 250ms;
   display: inline-block;
   color: white;
+}
+
+a.social:hover{
+  color: rgba(255, 255, 255, 0.8);
 }

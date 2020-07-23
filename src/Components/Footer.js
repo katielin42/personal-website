@@ -1,10 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faGithubSquare,
-    faLinkedin
-  } from "@fortawesome/free-brands-svg-icons";
+import {faGithubSquare,faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -13,7 +10,7 @@ function Footer() {
         <div className = "container">
             <div className = "row" style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
                 <a href="https://github.com/katielin42" class = "social"> <FontAwesomeIcon icon={faGithubSquare} size="3x" /></a>
-                <a href="https://www.linkedin.com/in/katie-lin-070925184/" class = "social"> <FontAwesomeIcon icon={faLinkedin} size="3x" /></a>
+                <a href="https://linkedin.com/in/katie-c-lin/" class = "social"> <FontAwesomeIcon icon={faLinkedin} size="3x" /></a>
                 </div>
             </div>
             </div>
